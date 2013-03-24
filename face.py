@@ -6,7 +6,7 @@ import string
 from random import randrange
 data = sys.stdin.read()
 
-imgarray = ("/home/spy/facedetect-and-replace/foreveralone.png", "/home/spy/facedetect-and-replace/goat.png", "/home/spy/facedetect-and-replace/horse.png", "/home/spy/facedetect-and-replace/lol.png", "/home/spy/facedetect-and-replace/troll.png")
+imgarray = ("/home/spy/facedetect-and-replace/images/foreveralone.png", "/home/spy/facedetect-and-replace/images/goat.png", "/home/spy/facedetect-and-replace/images/horse.png", "/home/spy/facedetect-and-replace/images/lol.png", "/home/spy/facedetect-and-replace/images/troll.png")
 im = cv.LoadImageM(data)
 storage = cv.CreateMemStorage()
 haar=cv.Load("/home/spy/facedetect-and-replace/haarcascade_frontalface_default.xml")
